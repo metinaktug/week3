@@ -1,0 +1,10 @@
+
+{"pubGuessA": "1", "pubGuessB": "2", 
+    "pubGuessC": "3", "pubGuessD": "4", 
+    "pubNumHit": "5", "pubNumBlow": "6", 
+    "pubSolnHash": "7",
+    "privSolnA": "8", 
+    "privSolnB": "9", "privSolnC": "10", 
+    "privSolnD": "11", "privSalt": "12" }
+
+   

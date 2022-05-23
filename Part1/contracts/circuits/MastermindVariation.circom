@@ -1,9 +1,24 @@
+// [bonus] implement an example game from part d
+
 pragma circom 2.0.0;
 
-// [assignment] implement a variation of mastermind from https://en.wikipedia.org/wiki/Mastermind_(board_game)#Variation as a circuit
-
 template MastermindVariation() {
+    signal input a;
+    signal input b;
+    signal input d;
+    signal input e;
+    signal input f;
 
-}
+    signal x;
+    signal y;
+    signal z;
+   
+    signal output c;
+    x <== a*b;
+    y <== x*d;
+    z <== y*e;
+    c <== z*f;
+     }
 
-component main = MastermindVariation();
+ component main = MastermindVariation();
+ 

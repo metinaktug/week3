@@ -1,5 +1,3 @@
-//[assignment] write your own unit test to show that your Mastermind variation circuit is working as expected
-
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 const fs = require("fs");
@@ -64,5 +62,31 @@ describe("bonus", function () {
 });
 
 
+describe("bonus with Groth16", function () {
+
+    beforeEach(async function () {
+        //[assignment] insert your script here
+    });
+
+    it("Should return true for correct proof", async function () {
+        //[assignment] insert your script here
+    });
+    it("Should return false for invalid proof", async function () {
+        //[assignment] insert your script here
+    });
+});
 
 
+describe("bonus with PLONK", function () {
+
+    beforeEach(async function () {
+        //[assignment] insert your script here
+    });
+
+    it("Should return true for correct proof", async function () {
+        //[assignment] insert your script here
+    });
+    it("Should return false for invalid proof", async function () {
+        //[assignment] insert your script here
+    });
+});
